@@ -5703,9 +5703,9 @@ h6 {
   }
 
   .reservation-item {
-    height: 104px;
-    padding-left: 30px;
-    padding-right: 30px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     transform: none !important;
   }
 
@@ -5717,7 +5717,8 @@ h6 {
   }
 
   .reservation-item-text {
-    font-size: var(--_typography---bodytext--b1);
+    font-size: var(--_typography---bodytext--b3);
+    line-height: 1.2;
   }
 
   .reservation-icon {
