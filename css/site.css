@@ -5099,8 +5099,6 @@ h6 {
     --_typography---style-section--hero-heading-oak: 112px;
   }
 
-  /* reservation: keep desktop styling on this breakpoint */
-
   h1 {
     font-size: 80px;
   }
@@ -5169,6 +5167,17 @@ h6 {
 
   .dish-text-1 {
     font-size: var(--_typography---bodytext--b3);
+  }
+
+  /* reservation locations: smaller text + flexible height on tablet/mobile */
+  .reservation-item {
+    height: auto;
+    padding: 24px 24px;
+  }
+
+  .reservation-item-text {
+    font-size: var(--_typography---bodytext--b5);
+    line-height: 1.2;
   }
 
   .dish-collection-list {
@@ -5689,8 +5698,13 @@ h6 {
     font-size: var(--_typography---bodytext--b4);
   }
 
+  .reservation-item {
+    height: auto;
+    padding: 24px 24px;
+  }
+
   .reservation-item-text {
-    font-size: var(--_typography---bodytext--b1);
+    font-size: var(--_typography---bodytext--b5);
     line-height: 1.2;
     padding: 0;
   }
