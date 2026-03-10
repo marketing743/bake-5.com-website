@@ -5716,7 +5716,15 @@ h6 {
     transform: none !important;
   }
 
+  .reservation-item-line-1,
+  .reservation-item-line-1._2nd,
+  .reservation-item-line-2,
+  .reservation-item-line-2._2nd {
+    display: none;
+  }
+
   .reservation-item-text {
+    color: var(--base-color--base);
     font-size: var(--_typography---bodytext--b3);
     line-height: 1.2;
   }
