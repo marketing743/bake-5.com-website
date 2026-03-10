@@ -2619,10 +2619,10 @@ h6 {
 .reservation-section {
   padding: 60px var(--_sizes---section--padding-section) 40px;
   width: 100%;
-  height: 100vh;
-  position: sticky;
-  top: 0;
-  overflow: hidden;
+  height: auto;
+  position: relative;
+  top: auto;
+  overflow: visible;
 }
 
 .reservation-container {
@@ -2800,7 +2800,7 @@ h6 {
 
 .location-scroll-block {
   width: 100%;
-  height: 250vh;
+  height: auto;
   position: relative;
 }
 
@@ -5706,6 +5706,14 @@ h6 {
     height: 104px;
     padding-left: 30px;
     padding-right: 30px;
+    transform: none !important;
+  }
+
+  .reservation-item-shape-1,
+  .reservation-item-shape-1._2nd,
+  .reservation-item-shape-2,
+  .reservation-item-shape-2._2nd {
+    transform: none !important;
   }
 
   .reservation-item-text {
