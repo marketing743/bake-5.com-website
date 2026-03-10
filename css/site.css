@@ -4645,43 +4645,6 @@ h6 {
     width: 570px;
   }
 
-  .reservation-item {
-    height: 200px;
-    padding: 20px 40px;
-  }
-
-  .reservation-item-shape-1 {
-    transform: translate(7px, -56%)rotate(4deg);
-  }
-
-  .reservation-item-shape-1._2nd {
-    transform: translate(-7px, -56%)rotate(-4deg);
-  }
-
-  .reservation-item-shape-2 {
-    transform: translate(7px, 56%)rotate(-4deg);
-  }
-
-  .reservation-item-shape-2._2nd {
-    transform: translate(-7px, 56%)rotate(4deg);
-  }
-
-  .reservation-item-line-2 {
-    transform: rotate(4deg);
-  }
-
-  .reservation-item-line-2._2nd {
-    transform: rotate(-4deg);
-  }
-
-  .reservation-item-text {
-    font-size: var(--_typography---heading--h3);
-  }
-
-  .reservation-icon {
-    width: 110px;
-  }
-
   .testimonial-text-1 {
     font-size: var(--_typography---bodytext--b3);
   }
@@ -5203,36 +5166,6 @@ h6 {
     width: 100%;
   }
 
-  .reservation-item-shape-1 {
-    width: 101%;
-    transform: translate(9px, -56%)rotate(5deg);
-  }
-
-  .reservation-item-shape-1._2nd {
-    transform: translate(-7px, -56%)rotate(-5deg);
-  }
-
-  .reservation-item-shape-2 {
-    width: 101%;
-    transform: translate(3px, 56%)rotate(-5deg);
-  }
-
-  .reservation-item-shape-2._2nd {
-    transform: translate(3px, 56%)rotate(5deg);
-  }
-
-  .reservation-item-line-2 {
-    transform: rotate(5deg);
-  }
-
-  .reservation-item-line-2._2nd {
-    transform: rotate(-5deg);
-  }
-
-  .reservation-icon {
-    width: 90px;
-  }
-
   .testimonial-item-block {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
@@ -5696,21 +5629,6 @@ h6 {
 
   .dish-text-1 {
     font-size: var(--_typography---bodytext--b4);
-  }
-
-  .reservation-item {
-    height: auto;
-    padding: 24px 24px;
-  }
-
-  .reservation-item-text {
-    font-size: var(--_typography---bodytext--b5);
-    line-height: 1.2;
-    padding: 0;
-  }
-
-  .reservation-icon {
-    bottom: -19%;
   }
 
   .testimonial-text-1 {
