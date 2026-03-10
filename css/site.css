@@ -5689,7 +5689,12 @@ h6 {
     font-size: var(--_typography---bodytext--b4);
   }
 
-  /* reservation: keep desktop styling on this breakpoint */
+  /* reservation: keep desktop shapes, just shrink text */
+  .reservation-item-text {
+    font-size: var(--_typography---bodytext--b5);
+    line-height: 1.2;
+    padding: 0 8px;
+  }
 
   .reservation-icon {
     bottom: -19%;
