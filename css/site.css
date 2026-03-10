@@ -5238,6 +5238,9 @@ h6 {
   .gallery-section {
     padding-top: 220px;
     padding-bottom: 220px;
+    position: relative;
+    height: auto;
+    overflow: visible;
   }
 
   .gallery-heading {
@@ -5251,6 +5254,15 @@ h6 {
   .gallery-image {
     width: 170px;
     height: 240px;
+  }
+
+  /* Disable scroll animation transforms on mobile so images stay visible */
+  .gallery-image-block {
+    transform: none !important;
+  }
+
+  .gallery-icon {
+    transform: none !important;
   }
 
   .gallery-image._4 {
@@ -5739,6 +5751,9 @@ h6 {
   .gallery-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    position: relative;
+    height: auto;
+    overflow: visible;
   }
 
   .gallery-block {
@@ -5794,6 +5809,15 @@ h6 {
     height: 150px;
     position: static;
     transform: translate(0%);
+  }
+
+  /* Ensure gallery elements are not shifted off-screen on very small devices */
+  .gallery-image-block {
+    transform: none !important;
+  }
+
+  .gallery-icon {
+    transform: none !important;
   }
 
   .gallery-image-block {
