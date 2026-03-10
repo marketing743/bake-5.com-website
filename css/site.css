@@ -2619,10 +2619,10 @@ h6 {
 .reservation-section {
   padding: 60px var(--_sizes---section--padding-section) 40px;
   width: 100%;
-  height: auto;
-  position: relative;
-  top: auto;
-  overflow: visible;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 }
 
 .reservation-container {
@@ -2800,7 +2800,7 @@ h6 {
 
 .location-scroll-block {
   width: 100%;
-  height: auto;
+  height: 250vh;
   position: relative;
 }
 
@@ -5099,31 +5099,7 @@ h6 {
     --_typography---style-section--hero-heading-oak: 112px;
   }
 
-  .reservation-item {
-    height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    transform: none !important;
-  }
-
-  .reservation-item-shape-1,
-  .reservation-item-shape-1._2nd,
-  .reservation-item-shape-2,
-  .reservation-item-shape-2._2nd {
-    display: none;
-  }
-
-  .reservation-item-line-1,
-  .reservation-item-line-1._2nd,
-  .reservation-item-line-2,
-  .reservation-item-line-2._2nd {
-    display: none;
-  }
-
-  .reservation-text {
-    width: 100%;
-    text-align: center;
-  }
+  /* reservation: keep desktop styling on this breakpoint */
 
   h1 {
     font-size: 80px;
@@ -5713,43 +5689,7 @@ h6 {
     font-size: var(--_typography---bodytext--b4);
   }
 
-  .reservation-block {
-    grid-column-gap: 110px;
-    grid-row-gap: 110px;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  .reservation-text {
-    font-size: var(--_typography---bodytext--b4);
-  }
-
-  .reservation-item {
-    height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    transform: none !important;
-  }
-
-  .reservation-item-shape-1,
-  .reservation-item-shape-1._2nd,
-  .reservation-item-shape-2,
-  .reservation-item-shape-2._2nd {
-    transform: none !important;
-  }
-
-  .reservation-item-line-1,
-  .reservation-item-line-1._2nd,
-  .reservation-item-line-2,
-  .reservation-item-line-2._2nd {
-    display: none;
-  }
-
-  .reservation-item-text {
-    color: var(--base-color--base);
-    font-size: var(--_typography---bodytext--b3);
-    line-height: 1.2;
-  }
+  /* reservation: keep desktop styling on this breakpoint */
 
   .reservation-icon {
     bottom: -19%;
