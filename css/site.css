@@ -5806,9 +5806,11 @@ h6 {
 
   .gallery-image._5 {
     width: 95%;
-    height: 150px;
+    height: auto;
     position: static;
     transform: translate(0%);
+    object-fit: cover;
+    object-position: center top;
   }
 
   /* Ensure gallery elements are not shifted off-screen on very small devices */
