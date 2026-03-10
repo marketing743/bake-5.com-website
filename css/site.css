@@ -5256,6 +5256,20 @@ h6 {
     height: 240px;
   }
 
+  /* Improve label fit on mobile dish cards */
+  .dish-item-label {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .dish-item-name {
+    width: auto;
+    max-width: 130px;
+    word-break: break-word;
+    hyphens: auto;
+    text-align: center;
+  }
+
   /* Disable scroll animation transforms on mobile so images stay visible */
   .gallery-image-block {
     transform: none !important;
