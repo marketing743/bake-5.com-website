@@ -2679,7 +2679,7 @@ h6 {
   display: flex;
   position: relative;
   overflow: hidden;
-  transform: none;
+  transform: none !important;
 }
 
 .reservation-item._2nd {
@@ -4675,7 +4675,7 @@ h6 {
   }
 
   .reservation-item-text {
-    font-size: var(--_typography---heading--h5);
+    font-size: var(--_typography---heading--h3);
   }
 
   .reservation-icon {
@@ -5689,11 +5689,10 @@ h6 {
     font-size: var(--_typography---bodytext--b4);
   }
 
-  /* reservation: keep desktop shapes, just shrink text */
   .reservation-item-text {
-    font-size: var(--_typography---bodytext--b5);
-    line-height: 1.2;
-    padding: 0 8px;
+    font-size: var(--_typography---heading--h3);
+    line-height: var(--_typography---style-section--height-1em);
+    padding: 0;
   }
 
   .reservation-icon {
