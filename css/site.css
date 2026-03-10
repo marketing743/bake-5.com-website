@@ -6189,3 +6189,7 @@ h6 {
   font-size: clamp(40px, 12vw, 160px);
   white-space: nowrap;
 }
+
+.w-webflow-badge {
+  display: none !important;
+}
