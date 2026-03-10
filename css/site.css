@@ -5690,8 +5690,8 @@ h6 {
   }
 
   .reservation-item-text {
-    font-size: var(--_typography---heading--h3);
-    line-height: var(--_typography---style-section--height-1em);
+    font-size: var(--_typography---bodytext--b1);
+    line-height: 1.2;
     padding: 0;
   }
 
