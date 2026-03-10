@@ -5836,6 +5836,11 @@ h6 {
     transform: none !important;
   }
 
+  /* Fix reservation cards initial offset on mobile */
+  .reservation-item {
+    transform: none !important;
+  }
+
   .gallery-image-block {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
